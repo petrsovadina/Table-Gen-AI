@@ -1,0 +1,19 @@
+# Systémové soubory
+.DS_Store
+.bash*
+.zsh*
+.profile
+.gitconfig
+.ssh/
+.vscode/
+.env
+
+# Nezahrnujte tyto složky
+/Downloads/
+/Library/
+/Pictures/
+/Movies/
+/Music/
+/Public/
+/Documents/
+/Applications/
