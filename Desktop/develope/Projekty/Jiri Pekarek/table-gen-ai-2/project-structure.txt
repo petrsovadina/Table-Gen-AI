@@ -1,0 +1,53 @@
+TableGenAI/
+├── .env
+├── .env.example
+├── .gitignore
+├── package.json
+├── tsconfig.json
+├── next.config.js
+├── README.md
+├── public/
+│   └── favicon.ico
+├── src/
+│   ├── app/
+│   │   ├── layout.tsx
+│   │   ├── page.tsx
+│   │   └── globals.css
+│   ├── components/
+│   │   ├── layout/
+│   │   │   ├── Layout.tsx
+│   │   │   └── ThemeToggle.tsx
+│   │   ├── data/
+│   │   │   ├── DataTable.tsx
+│   │   │   └── FileImport.tsx
+│   │   ├── ai/
+│   │   │   └── AIGenerator.tsx
+│   │   ├── prompt/
+│   │   │   └── PromptManager.tsx
+│   │   └── version/
+│   │       └── VersionManager.tsx
+│   ├── hooks/
+│   │   ├── useErrorHandler.ts
+│   │   └── useSupabaseQuery.ts
+│   ├── lib/
+│   │   ├── supabase.ts
+│   │   └── anthropic.ts
+│   ├── store/
+│   │   └── tableStore.ts
+│   ├── types/
+│   │   └── index.ts
+│   └── utils/
+│       ├── csvExport.ts
+│       ├── dataProcessing.ts
+│       ├── dataValidation.ts
+│       ├── encryption.ts
+│       ├── analytics.ts
+│       └── aiDataGeneration.ts
+└── tests/
+    ├── components/
+    │   └── DataTable.test.tsx
+    ├── utils/
+    │   └── csvExport.test.ts
+    └── e2e/
+        └── table_operations.spec.ts
+
